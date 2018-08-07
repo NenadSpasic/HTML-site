@@ -1,0 +1,89 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+* {
+	font-family: 'Slabo 27px', serif;
+	font-size: 18px;
+}
+
+#navigation {
+	position: fixed;
+	
+	
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    width: 15%;
+    background: -moz-linear-gradient(131deg, #B7F5FE 20%, #ECF6EA 90%);/* FF3.6+ */
+	background: -webkit-gradient(linear, 131deg, color-stop(20%, B7F5FE), color-stop(90%, ECF6EA));/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(131deg, #B7F5FE 20%, #ECF6EA 90%);/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(131deg, #B7F5FE 20%, #ECF6EA 90%);/* Opera 11.10+ */
+	background: -ms-linear-gradient(131deg, #B7F5FE 20%, #ECF6EA 90%);/* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+	background: linear-gradient(131deg, #B7F5FE 20%, #ECF6EA 90%);/* W3C */
+    height: 100%; 
+    position: fixed; 
+    overflow: auto; 
+}
+
+#navigation li a {
+    display: block;
+	 text-decoration: none;
+}
+
+#navigation li a:hover {
+    background: #62D1F3;
+    color: white;
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+#sub {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 16px;
+}
+
+
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; 
+}
+.centered{
+	text-align: center;
+}
+
+.margin {
+	margin-bottom: 150px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0054FF;
+    color: white;
+    text-align: center;
+	
+}
+
+.footer p {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12px;
+}
+
+.heart{
+	color:#e25555;
+}
+
+.footer a {
+   text-decoration: none;
+}
+.footer a:hover {
+    background: #050505;
+    color: white;
+	
+}

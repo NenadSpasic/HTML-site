@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Stilizacija</title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/normalize.css" type="text/css">
+<link rel="stylesheet" href="css/skeleton.css" type="text/css">
+</head>
+
+<body>
+
+<nav id="navigation">
+	<div>
+		<ul>
+			<li><a href="index.html">HTML</a></li>
+			<li><a href="page_css.html">CSS</a></li>
+			<li><a href="page_js.html">JavaScript</a></li>
+			<li><a href="page_php.html">PHP</a></li>
+
+		</ul>	
+	</div>
+	
+</nav>
+
+<div class="container">
+
+<header class="row">
+	<div class="three columns">
+		<h1>CSS</h1>
+		
+	</div>
+	
+	<div class="nine columns" id="sub">
+		<h3><em><a href="https://en.wikipedia.org/wiki/HTML" title="Wikipedia" target="_blank">From Wikipedia, the free encyclopedia</a></em></h3>
+	</div>
+</header>
+
+
+
+<section class="margin">
+	
+	<div class="row">
+		
+		<div class="three columns">
+		
+			<img src="img/logo_css.jpg" alt="CSS_logo">
+			
+		</div>
+		
+		<div class="nine columns">
+			<p>
+				Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+
+				CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content.
+
+				Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.
+
+				The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.
+
+				The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.
+
+				In addition to HTML, other markup languages support the use of CSS, including XHTML, plain XML, SVG, and XUL.
+			</p>
+			
+		</div>
+		
+	</div>
+
+	
+	
+</section>
+
+<section>
+	
+	<div class="row">
+		
+		<div class="u-full-width centered" >
+			<h3>History</h3>
+		</div>
+		
+		
+		<figure class="five columns">
+			  
+			 <img  src="img/Håkon_Wium_Lie.jpg" alt="Hakon_Wium">	
+			  <figcaption>Fig.1 - Håkon Wium Lie.</figcaption>
+			<img  src="img/html-css-js.jpg" alt="CSS">	
+			 <figcaption>Fig.2 - Web site structure.</figcaption>
+		</figure>
+		
+		
+		<div class="six columns">
+		<p>
+			CSS was first proposed by Håkon Wium Lie on October 10, 1994. At the time, Lie was working with Tim Berners-Lee at CERN. Several other style sheet languages for the web were proposed around the same time, and discussions on public mailing lists and inside World Wide Web Consortium resulted in the first W3C CSS Recommendation (CSS1) being released in 1996. In particular, Bert Bos' proposal was influential; he became co-author of CSS1 and is regarded as co-creator of CSS.
+
+		Style sheets have existed in one form or another since the beginnings of Standard Generalized Markup Language (SGML) in the 1980s, and CSS was developed to provide style sheets for the web. One requirement for a web style sheet language was for style sheets to come from different sources on the web. Therefore, existing style sheet languages like DSSSL and FOSI were not suitable. CSS, on the other hand, let a document's style be influenced by multiple style sheets by way of "cascading" styles.
+
+		As HTML grew, it came to encompass a wider variety of stylistic capabilities to meet the demands of web developers. This evolution gave the designer more control over site appearance, at the cost of more complex HTML. Variations in web browser implementations, such as ViolaWWW and WorldWideWeb,[24] made consistent site appearance difficult, and users had less control over how web content was displayed. The browser/editor developed by Tim Berners-Lee had style sheets that were hard-coded into the program. The style sheets could therefore not be linked to documents on the web.[25] Robert Cailliau, also of CERN, wanted to separate the structure from the presentation so that different style sheets could describe different presentation for printing, screen-based presentations, and editors.
+
+		Improving web presentation capabilities was a topic of interest to many in the web community and nine different style sheet languages were proposed on the www-style mailing list. Of these nine proposals, two were especially influential on what became CSS: Cascading HTML Style Sheets and Stream-based Style Sheet Proposal (SSP). Two browsers served as testbeds for the initial proposals; Lie worked with Yves Lafon to implement CSS in Dave Raggett's Arena browser. Bert Bos implemented his own SSP proposal in the Argo browser.[22] Thereafter, Lie and Bos worked together to develop the CSS standard (the 'H' was removed from the name because these style sheets could also be applied to other markup languages besides HTML).
+
+		Lie's proposal was presented at the "Mosaic and the Web" conference (later called WWW2) in Chicago, Illinois in 1994, and again with Bert Bos in 1995. Around this time the W3C was already being established, and took an interest in the development of CSS. It organized a workshop toward that end chaired by Steven Pemberton. This resulted in W3C adding work on CSS to the deliverables of the HTML editorial review board (ERB). Lie and Bos were the primary technical staff on this aspect of the project, with additional members, including Thomas Reardon of Microsoft, participating as well. In August 1996 Netscape Communication Corporation presented an alternative style sheet language called JavaScript Style Sheets (JSSS). The spec was never finished and is deprecated. By the end of 1996, CSS was ready to become official, and the CSS level 1 Recommendation was published in December.
+
+		Development of HTML, CSS, and the DOM had all been taking place in one group, the HTML Editorial Review Board (ERB). Early in 1997, the ERB was split into three working groups: HTML Working group, chaired by Dan Connolly of W3C; DOM Working group, chaired by Lauren Wood of SoftQuad; and CSS Working group, chaired by Chris Lilley of W3C.
+
+		The CSS Working Group began tackling issues that had not been addressed with CSS level 1, resulting in the creation of CSS level 2 on November 4, 1997. It was published as a W3C Recommendation on May 12, 1998. CSS level 3, which was started in 1998, is still under development as of 2014.
+
+		In 2005 the CSS Working Groups decided to enforce the requirements for standards more strictly. This meant that already published standards like CSS 2.1, CSS 3 Selectors and CSS 3 Text were pulled back from Candidate Recommendation to Working Draft level.
+		</p>
+
+		</div>	
+</div>
+		
+	
+	
+	
+	
+</section>
+
+
+
+<section>
+	<div class="row">
+		
+		<div class="one-half column">
+			<h4>Use</h4>
+			<p>
+				Before CSS, nearly all presentational attributes of HTML documents were contained within the HTML markup. All font colors, background styles, element alignments, borders and sizes had to be explicitly described, often repeatedly, within the HTML. CSS lets authors move much of that information to another file, the style sheet, resulting in considerably simpler HTML.
+
+		For example, headings (h1 elements), sub-headings (h2), sub-sub-headings (h3), etc., are defined structurally using HTML. In print and on the screen, choice of font, size, color and emphasis for these elements is presentational.
+
+		Before CSS, document authors who wanted to assign such typographic characteristics to, say, all h2 headings had to repeat HTML presentational markup for each occurrence of that heading type. This made documents more complex, larger, and more error-prone and difficult to maintain. CSS allows the separation of presentation from structure. CSS can define color, font, text alignment, size, borders, spacing, layout and many other typographic characteristics, and can do so independently for on-screen and printed views. CSS also defines non-visual styles, such as reading speed and emphasis for aural text readers. The W3C has now deprecated the use of all presentational HTML markup. The advantages of this may not be immediately clear (since the second form is actually more verbose), but the power of CSS becomes more apparent when the style properties are placed in an internal style element or, even better, an external CSS file.
+
+		For example, under pre-CSS HTML, a heading element defined with red text would be written as:
+<pre><code>
+&lt;h1&gt; &lt;font color="red"&gt; Chapter 1. &lt;/font&gt;&lt;/h1&gt;
+</code></pre>	
+	
+		<pre><code>
+&lt;h1 style="color: red;"&gt; Chapter 1. &lt;/h1&gt;
+</code></pre>
+			</p>
+
+	</div>
+	
+	<div  class="one-half column">
+		<h4>Frameworks</h4>
+		<p>
+			CSS frameworks are pre-prepared libraries that are meant to allow for easier, more standards-compliant styling of web pages using the Cascading Style Sheets language. CSS frameworks include Foundation, Blueprint, Bootstrap, Cascade Framework and Materialize. Like programming and scripting language libraries, CSS frameworks are usually incorporated as external .css sheets referenced in the HTML &lt;head&gt;. They provide a number of ready-made options for designing and laying out the web page. Although many of these frameworks have been published, some authors use them mostly for rapid prototyping, or for learning from, and prefer to 'handcraft' CSS that is appropriate to each published site without the design, maintenance and download overhead of having many unused features in the site's styling.
+		</p>
+		
+			
+	</div>
+	
+</div>
+	
+	
+	
+</section>
+
+<section>
+	<div class="row">
+	
+		<div class="one-half column">
+			<iframe 
+			width="420"
+			height="315"
+			src="https://www.youtube.com/embed/yfoY53QXEnI"
+			frameborder="0" allow="autoplay; encrypted-media" >
+				
+			</iframe>
+						
+		</div>
+		
+		<div class="one-half column">
+			<iframe 
+			width="420"
+			height="315"
+			src="https://www.youtube.com/embed/nVANwdryGVc" 
+			frameborder="0" 
+			allow="autoplay; encrypted-media">
+			</iframe>
+					
+		</div>
+		
+	</div>
+	
+</section>
+
+<footer class="footer">
+	<p>Made with <span class="heart"> ❤ </span> by <a href="https://nenadspasic.com/" title="spasic" target="_blank"> Spasic</a> </p>
+</footer>
+
+
+
+</div>
+</body>
+</html>
+	
